@@ -1,3 +1,127 @@
+# Sakura — Japanese Restaurant
+
+> Sakura — Contemporary Japanese restaurant. Fresh sushi, ramen, tempura and more.
+
+- **Location:** 123 Sakura Lane, City, State ZIP
+- **Phone:** (555) 123-4567
+- **Hours:** Tue–Sun 11:30–22:00 (Mon closed)
+
+---
+
+## Navigation
+
+- [Home](#home)
+- [Menu](#menu)
+- [About](#about)
+- [Reservations](#reservations)
+
+---
+
+## Home
+
+![Sushi assortment](https://source.unsplash.com/900x600/?japanese-food,sushi)
+
+### Sakura
+
+> Authentic taste, modern presentation. Fresh sushi, comforting ramen, and small plates for sharing.
+
+[Explore Menu](#menu)
+
+---
+
+## About
+
+Sakura blends traditional Japanese flavors with contemporary techniques. We focus on seasonality, balance, and hospitality.
+
+---
+
+## Menu
+
+Chef's selection of popular Japanese dishes. Tap an item for details.
+
+### Assorted Sushi Platter — $28
+
+![Assorted sushi](https://source.unsplash.com/600x500/?sushi)
+
+Selection of nigiri & maki — chef's choice.
+
+### Tonkotsu Ramen — $16
+
+![Tonkotsu ramen bowl](https://source.unsplash.com/600x500/?ramen)
+
+Creamy pork broth, chashu, egg, and noodles.
+
+### Tempura Plate — $14
+
+![Tempura plate](https://source.unsplash.com/600x500/?tempura)
+
+Lightly battered shrimp and seasonal vegetables.
+
+### Sashimi Selection — $24
+
+![Sashimi selection](https://source.unsplash.com/600x500/?sashimi)
+
+Fresh seasonal sashimi, beautifully sliced.
+
+### Yakitori Skewers — $12
+
+![Yakitori skewers](https://source.unsplash.com/600x500/?yakitori)
+
+Grilled skewers with tare glaze.
+
+### Udon Noodle Bowl — $13
+
+![Udon noodle bowl](https://source.unsplash.com/600x500/?udon)
+
+Thick noodles in savory dashi broth.
+
+### Takoyaki — $9
+
+![Takoyaki](https://source.unsplash.com/600x500/?takoyaki)
+
+Octopus balls topped with sauce and bonito.
+
+### Bento Box — $18
+
+![Bento box](https://source.unsplash.com/600x500/?bento)
+
+Balanced meal with rice, protein, and sides.
+
+### Matcha Cheesecake — $7
+
+![Matcha dessert](https://source.unsplash.com/600x500/?matcha,dessert)
+
+Silky matcha cheesecake, sweet finish.
+
+---
+
+## Reservations
+
+To request a reservation, use the form on the site (fields: name, email, date & time, guests, notes). The live site includes `scripts.js` to handle submissions and form messages.
+
+---
+
+## Contact
+
+**Visit Us**
+
+123 Sakura Lane
+
+City, State ZIP
+
+**Phone:** (555) 123-4567
+
+**Hours:** Tue–Sun 11:30–22:00 (Mon closed)
+
+---
+
+## Credits
+
+Site assets are example images from Unsplash via the `source.unsplash.com` random image endpoints.
+
+---
+
+*This README was generated from `index.html`.*
 # Sakura — Static Restaurant Website
 
 This is a small static website for a Japanese restaurant (Sakura). It uses a simple architecture:
