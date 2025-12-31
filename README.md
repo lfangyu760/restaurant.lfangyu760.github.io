@@ -19,7 +19,7 @@
 
 ## Home
 
-![Sushi assortment](https://source.unsplash.com/900x600/?japanese-food,sushi)
+![Sushi assortment](cucumber.jpg)
 
 ### Sakura
 
