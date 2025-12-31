@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title=Sakura — Japanese Restaurant</title>
+  <meta name="description" content="Sakura — Contemporary Japanese restaurant. Fresh sushi, ramen, tempura and more." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://source.unsplash.com/32x32/?sushi" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Sakura</a>
+      <nav class="nav" id="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Reservations</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Sakura</h1>
+          <p>Authentic taste, modern presentation. Fresh sushi, comforting ramen, and small plates for sharing.</p>
+          <a class="btn" href="#menu">Explore Menu</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://source.unsplash.com/900x600/?japanese-food,sushi" alt="Sushi assortment" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About Us</h2>
+      <p>Sakura blends traditional Japanese flavors with contemporary techniques. We focus on seasonality, balance, and hospitality.</p>
+    </section>
+
+    <section id="menu" class="container menu">
+      <div class="menu-header">
+        <h2>Menu</h2>
+        <p>Chef's selection of popular Japanese dishes. Tap an item for details.</p>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <!-- Menu items pre-filled with random Japanese-food images -->
+        <article class="menu-item" data-name="Assorted Sushi Platter" data-price="28">
+          <img src="https://source.unsplash.com/600x500/?sushi" alt="Assorted sushi" />
+          <div class="menu-item-body">
+            <h3>Assorted Sushi Platter</h3>
+            <p class="desc">Selection of nigiri & maki — chef's choice.</p>
+            <div class="meta">
+              <span class="price">$28</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Tonkotsu Ramen" data-price="16">
+          <img src="https://source.unsplash.com/600x500/?ramen" alt="Tonkotsu ramen bowl" />
+          <div class="menu-item-body">
+            <h3>Tonkotsu Ramen</h3>
+            <p class="desc">Creamy pork broth, chashu, egg, and noodles.</p>
+            <div class="meta">
+              <span class="price">$16</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Tempura Plate" data-price="14">
+          <img src="https://source.unsplash.com/600x500/?tempura" alt="Tempura plate" />
+          <div class="menu-item-body">
+            <h3>Tempura Plate</h3>
+            <p class="desc">Lightly battered shrimp and seasonal vegetables.</p>
+            <div class="meta">
+              <span class="price">$14</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Sashimi Selection" data-price="24">
+          <img src="https://source.unsplash.com/600x500/?sashimi" alt="Sashimi selection" />
+          <div class="menu-item-body">
+            <h3>Sashimi Selection</h3>
+            <p class="desc">Fresh seasonal sashimi, beautifully sliced.</p>
+            <div class="meta">
+              <span class="price">$24</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Yakitori Skewers" data-price="12">
+          <img src="https://source.unsplash.com/600x500/?yakitori" alt="Yakitori skewers" />
+          <div class="menu-item-body">
+            <h3>Yakitori Skewers</h3>
+            <p class="desc">Grilled skewers with tare glaze.</p>
+            <div class="meta">
+              <span class="price">$12</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Udon Noodle Bowl" data-price="13">
+          <img src="https://source.unsplash.com/600x500/?udon" alt="Udon noodle bowl" />
+          <div class="menu-item-body">
+            <h3>Udon Noodle Bowl</h3>
+            <p class="desc">Thick noodles in savory dashi broth.</p>
+            <div class="meta">
+              <span class="price">$13</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Takoyaki" data-price="9">
+          <img src="https://source.unsplash.com/600x500/?takoyaki" alt="Takoyaki" />
+          <div class="menu-item-body">
+            <h3>Takoyaki</h3>
+            <p class="desc">Octopus balls topped with sauce and bonito.</p>
+            <div class="meta">
+              <span class="price">$9</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Bento Box" data-price="18">
+          <img src="https://source.unsplash.com/600x500/?bento" alt="Bento box" />
+          <div class="menu-item-body">
+            <h3>Bento Box</h3>
+            <p class="desc">Balanced meal with rice, protein, and sides.</p>
+            <div class="meta">
+              <span class="price">$18</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-name="Matcha Cheesecake" data-price="7">
+          <img src="https://source.unsplash.com/600x500/?matcha,dessert" alt="Matcha dessert" />
+          <div class="menu-item-body">
+            <h3>Matcha Cheesecake</h3>
+            <p class="desc">Silky matcha cheesecake, sweet finish.</p>
+            <div class="meta">
+              <span class="price">$7</span>
+              <button class="btn small details-btn">Details</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Reservations & Contact</h2>
+      <div class="contact-grid">
+        <form id="reservation-form" class="reservation-form" novalidate>
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Date & Time
+            <input type="datetime-local" name="datetime" required />
+          </label>
+          <label>
+            Guests
+            <input type="number" name="guests" min="1" max="20" value="2" required />
+          </label>
+          <label>
+            Notes
+            <textarea name="notes" rows="3"></textarea>
+          </label>
+          <button class="btn" type="submit">Request Reservation</button>
+          <p class="form-msg" id="form-msg" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-info">
+          <h3>Visit Us</h3>
+          <p>123 Sakura Lane<br />City, State ZIP</p>
+          <p><strong>Hours</strong><br />Tue–Sun 11:30–22:00<br />Mon closed</p>
+          <p><strong>Phone</strong><br />(555) 123-4567</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sakura — Crafted with care</p>
+    </div>
+  </footer>
+
+  <!-- Modal for menu details -->
+  <div id="item-modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
