@@ -2,7 +2,7 @@
 
 > Sakura — Contemporary Japanese restaurant. Fresh sushi, ramen, tempura and more.
 
-- **Location:** 123 Sakura Lane, City, State ZIP
+- **Location:** 123 kkh Sakura Lane, City, State ZIP
 - **Phone:** (555) 123-4567
 - **Hours:** Tue–Sun 11:30–22:00 (Mon closed)
 
