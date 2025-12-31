@@ -23,7 +23,7 @@
 
 ### Sakura
 
-> Authentic taste, modern presentation. Fresh sushi, comforting ramen, and small plates for sharing.
+> Authentic kkh taste, modern presentation. Fresh sushi, comforting ramen, and small plates for sharing.
 
 [Explore Menu](#menu)
 
